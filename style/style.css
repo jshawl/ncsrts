@@ -27,8 +27,8 @@ h3,h4,h5,h6{
 }
 
 h2{
-	font-size: 40px;
-	line-height: 45px;
+	font-size: 30px;
+	line-height: 35px;
 }
 
 h3{
@@ -445,7 +445,7 @@ header .form{
 	box-shadow: none !important;
 	text-shadow: none !important;
 	border-radius: 0px !important;
-	font-weight: normal !important; 
+	font-weight: bold !important; 
 	font-size: 14px !important;
 }
 
@@ -471,14 +471,8 @@ header .form{
 	border-bottom: 1px solid #eee !important;
 }
 
-.navbar a, .navbar a:visited{
-	color:#666 !important;
-}
-
 .navbar .nav > li > a, .navbar .nav > li > a:visited{
-	color: #666 !important;
 	padding:15px 15px 15px;
-	filter: none !important;
 }
 
 .navbar .nav > li > a:hover{
@@ -2102,4 +2096,10 @@ footer .copy{
 
 @media (max-width: 979px){
 
+}
+
+/* jesse added */
+
+.nav .pull-right{
+	border-left: 1px solid rgba(100%,100%,100% ,.2);
 }
