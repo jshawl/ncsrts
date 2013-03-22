@@ -4,9 +4,14 @@
 @import 'plugins/bootstrap-responsive'; 
 @import 'plugins/bootstrap';
 @import 'plugins/font-awesome'; 
-@import 'plugins/prettyPhoto.css'; 
+@import 'plugins/prettyPhoto'; 
+@import 'plugins/chosen';
 @import 'themes/themes';
 
+
+
+/* custom css here */
+@import 'custom/base';
 
 .navbar .container{
 	width:940px;

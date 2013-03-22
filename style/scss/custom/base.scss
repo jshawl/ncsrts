@@ -1,0 +1,44 @@
+.navbar-inner{
+      background:#1BA1E2;
+    }
+
+    .navbar .nav > li > a{
+      color:#fff !important;
+      border-right:1px solid rgba(100%,100%,100% ,.2);
+    }
+
+    .navbar .nav > li:first-child{
+      border-left:1px solid rgba(100%,100%,100% ,.2);
+    }
+
+    .navbar .nav > li > a:hover{
+      background:#1570a6 !important;
+    }
+
+    .tidate{
+      text-align: center;
+    }
+
+    select, input[type='text']{
+      width:100%;
+      box-sizing:border-box;
+      height:30px;
+    }
+
+    .full-page-form label{
+      width:200px;
+      float:left;
+      clear:both;
+      text-align:right;
+      padding:0 1em;
+    }
+
+    .full-page-form .response{
+      float:left;
+      width:66%;
+    }
+
+    .full-page-form .response input[type='text'],
+    .full-page-form .response select{
+      width:auto;
+    }
