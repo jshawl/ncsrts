@@ -9858,7 +9858,7 @@ select, input[type='text'] {
   box-sizing: border-box;
   height: 30px; }
 
-.full-page-form label {
+.full-page-form > label {
   width: 200px;
   float: left;
   clear: both;
